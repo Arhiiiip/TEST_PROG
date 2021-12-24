@@ -24,3 +24,4 @@ ip_address = (input().split('.'))
 if check_nums(int(ip_address[1]), int(ip_address[2]),
               int(ip_address[3])):
     print(return_class(int(ip_address[0])))
+    
